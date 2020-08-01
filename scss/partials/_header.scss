@@ -1,0 +1,32 @@
+.header {
+  // padding: 4rem 0;
+
+  &-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .navbar {
+    ul {
+      li {
+        display: inline-block;
+
+        &:not(:last-child) {
+          margin-right: 3rem;
+        }
+
+        a {
+          font-size: $default-font-size;
+          padding: 1rem;
+          transition: all 0.2s;
+
+          &:hover {
+            color: $color-desaturated-blue;
+            border-bottom: 3px solid $color-desaturated-blue;
+          }
+        }
+      }
+    }
+  }
+}

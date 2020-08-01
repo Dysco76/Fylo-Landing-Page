@@ -1,0 +1,45 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+header,
+footer,
+h1,
+h2,
+h3,
+h4,
+.btn {
+  font-family: $font-highlight;
+}
+
+.navbar a,
+.lead-big {
+  font-size: $bigger-font-size;
+}
+
+.lead-default {
+  font-size: $default-font-size;
+  width: 67%;
+}
+
+.section-heading {
+  font-size: 3.7rem;
+  font-weight: 700;
+  line-height: 1.5;
+
+  &-small {
+    font-size: 3rem;
+    font-weight: 700;
+  }
+}
+
+.action-button {
+  font-size: $default-font-size;
+}
+
+.action-call,
+.footer,
+.footer a {
+  color: $color-white;
+  font-size: $default-font-size;
+}

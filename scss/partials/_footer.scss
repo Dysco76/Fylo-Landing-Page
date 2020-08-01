@@ -1,0 +1,71 @@
+.footer {
+  background: $color-dark-blue;
+
+  &-logo {
+    padding: 2rem 0;
+  }
+
+  &-content {
+    display: flex;
+    justify-content: space-between;
+
+    img {
+      margin-right: 1rem;
+      vertical-align: middle;
+    }
+
+    div:not(:last-child) {
+      a {
+        display: inline-block;
+        margin-bottom: 1rem;
+        border-bottom: transparent 1px solid;
+        transition: 0.2s;
+        padding-bottom: 1rem;
+
+        &:hover {
+          border-bottom: 1px solid $color-white;
+        }
+      }
+    }
+
+    .social {
+      margin-right: 20rem;
+
+      ul {
+        display: flex;
+        width: 15rem;
+        justify-content: space-around;
+
+        a {
+          padding: 0.8rem;
+          border: 1px solid $color-white;
+          border-radius: 50%;
+          transition: 0.2s;
+
+          &:hover {
+            background: $color-white;
+            color: $color-dark-blue;
+          }
+
+          .fa-facebook-f {
+            padding: 0 0.4rem;
+          }
+
+          .fa-twitter {
+            padding: 0 0.1rem;
+          }
+
+          .fa-instagram {
+            padding: 0 0.2rem;
+          }
+        }
+      }
+    }
+  }
+
+  .signature {
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.5rem;
+  }
+}

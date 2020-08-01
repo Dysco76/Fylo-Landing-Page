@@ -1,0 +1,51 @@
+// HERO SECTION
+
+.hero {
+  input[type="email"] {
+    width: 50%;
+    margin-right: 1rem;
+  }
+
+  &-image {
+    width: 55%;
+  }
+}
+
+// FEATURE SECTION
+
+.curved-edge {
+  padding-top: 6rem;
+  margin-bottom: -4px;
+
+  img {
+    width: 100%;
+  }
+
+  &-mobile {
+    display: none;
+  }
+}
+
+.feature {
+  &-image {
+    width: 48%;
+  }
+
+  padding-bottom: 4rem;
+}
+
+// ACTION CALL
+.action-call {
+  &-text {
+    flex: 5;
+  }
+
+  form {
+    flex: 4;
+  }
+  input[type="email"] {
+    width: 85%;
+    margin-bottom: 1.5rem;
+    box-shadow: 0.2rem 0.2rem 0.3rem rgba($color-black, 0.3);
+  }
+}

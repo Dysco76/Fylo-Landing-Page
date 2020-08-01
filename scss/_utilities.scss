@@ -1,0 +1,43 @@
+.u-container {
+  max-width: 135rem;
+  margin: 0 auto;
+  padding: 4rem 4rem;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.u-margin-bottom-small {
+  margin-bottom: 2rem;
+}
+
+.u-margin-bottom-medium {
+  margin-bottom: 4rem;
+}
+
+.u-margin-bottom-big {
+  margin-bottom: 6rem;
+}
+
+.u-py-3 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.u-py-5 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.u-py-6 {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+.u-py-10 {
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
