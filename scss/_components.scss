@@ -14,21 +14,23 @@
   color: $color-white;
 }
 
-.action-button {
-  display: inline-block;
-  color: $color-moderate-cyan;
-  padding-bottom: 0.5rem 0;
-  transition: 0.2s;
-  border-bottom: transparent 1px solid;
+.action {
+  &-button {
+    display: inline-flex;
+    align-items: center;
+    color: $color-moderate-cyan;
+    padding: 0.5rem;
+    transition: 0.2s;
+    border-bottom: transparent 1px solid;
+    line-height: 0;
 
-  &-icon {
-    display: inline-block;
-    height: 1.6rem;
-    vertical-align: middle;
+    &:hover {
+      border-bottom: $color-moderate-cyan 1px solid;
+    }
   }
-
-  &:hover {
-    border-bottom: $color-moderate-cyan 1px solid;
+  &-icon {
+    height: 2.5rem;
+    margin-left: 0.5rem;
   }
 }
 

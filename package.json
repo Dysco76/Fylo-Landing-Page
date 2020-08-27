@@ -4,7 +4,7 @@
   "description": "![Design preview for the Fylo landing page with two column layout challenge](./design/desktop-preview.jpg)",
   "main": "index.js",
   "scripts": {
-    "compile:sass": "node-sass scss/main.scss dist/style/style.css -w"
+    "compile:sass": "node-sass scss/main.scss dist/css/main.css -w"
   },
   "keywords": [],
   "author": "",
